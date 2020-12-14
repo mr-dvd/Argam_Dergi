@@ -1,0 +1,52 @@
+:root{
+  font-family: 'Open Sans';
+  font-size: 16px;
+  --background-color-light: #E9E5DD;
+  --background-: #ececec;
+}
+
+#home {
+  width: auto;
+  height: auto;
+}
+
+body{
+  background-color: #E9E5DD
+}
+ul {
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+
+  overflow: hidden;
+  background-color: #D04925;
+}
+
+li {
+  float: left;
+  color:white
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.dropdown-content{
+  display:none;
+  transition: display 200ms;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  color: #D4CECC;
+  background-color: #E56E4E;
+}
+
+li:hover .dropdown-content {
+  display:block;
+
+}
